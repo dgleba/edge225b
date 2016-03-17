@@ -1,7 +1,6 @@
 
 I am trying the following filtering app.
 
-https://github.com/modlinltd/django-advanced-filters/issues/14
 https://github.com/modlinltd/django-advanced-filters
 
 2016-03-17:
