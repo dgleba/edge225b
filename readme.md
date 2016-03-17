@@ -11,8 +11,10 @@ https://github.com/modlinltd/django-advanced-filters/issues/14
 
 
 
+
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Title:  .
+Title:  . Copy of my issue post...
+
 -----------------------2016-03-17[Mar-Thu]16-11PM
 
 Thankyou for your efforts on this feature!
@@ -60,7 +62,6 @@ Windows.
 ___________
 
 
-Copy of my issue post...
 
 
 ### My installation steps. (Possibly unneeded detail)
