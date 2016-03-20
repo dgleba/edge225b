@@ -97,33 +97,32 @@ class Cilisting1Admin( AdminAdvancedFiltersMixin, admin.ModelAdmin ):
 #        'orginator_email',
     )
 
-list_filter = (
-    'wc_idea_date',
-    'actual_implementation_date',
-    # 'updatedtime',
-    # 'createdtime',
-    #'owner',
-    #'originator',
+    list_filter = (
+        'wc_idea_date',
+        'actual_implementation_date',
+        # 'updatedtime',
+        # 'createdtime',
+        #'owner',
+        #'originator',
+        )
+
+    # select from these fields in the advanced filter creation form
+    advanced_filter_fields = (
+        'owner',  'originator',  'project_number',
+
     )
 
-# select from these fields in the advanced filter creation form
-advanced_filter_fields = (
-    'owner',  'originator',  'project_number',
-
+    list_display_links = (
+        'project_number',
+        'ciid',
+        'project_description',
+    #       'owner',
+    #       'suggestion_status',
+    #       'comments'
     )
-    
-list_display_links = (        
-    'project_number',
-    'ciid',
-    'project_description',
-#       'owner',
-#       'suggestion_status',
-#       'comments'
-)
-    
+
 #set the number of entries on the grid...
 list_per_page = 15
-
 
 
 def _register(model, admin_class):
